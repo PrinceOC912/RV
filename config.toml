@@ -3,43 +3,43 @@ parallel-jobs = 1
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 # you can use rvmm-config-gen to generate a config
-[YouTube-MMT-Red]
-rv-brand = "revanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patches-source = "revanced/revanced-patches"
-excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName=YouTube -e 'Change package name' -OpackageName=yt.rev.mmtr"
+#[YouTube-MMT-Red]
+#rv-brand = "revanced"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+#patches-source = "revanced/revanced-patches"
+#excluded-patches = "'Enable debugging'"
+#patcher-args = "-e 'Custom branding' -OcustomName=YouTube -e 'Change package name' -OpackageName=yt.rev.mmtr"
 
-[YouTube-Music-MMT-Red]
-rv-brand = "revanced"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-patches-source = "revanced/revanced-patches"
-excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -e 'Change package name' -OpackageName=ytm.rev.mmtr"
+#[YouTube-Music-MMT-Red]
+#rv-brand = "revanced"
+#arch = "arm64-v8a"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+#uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+#patches-source = "revanced/revanced-patches"
+#excluded-patches = "'Enable debugging'"
+#patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -e 'Change package name' -OpackageName=ytm.rev.mmtr"
 
-[YouTube-MMT-Blue]
-rv-brand = "revanced"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-patches-source = "revanced/revanced-patches"
-excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName=YouTube -e 'Change package name' -OpackageName=yt.rev.mmtb"
+#[YouTube-MMT-Blue]
+#rv-brand = "revanced"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+#patches-source = "revanced/revanced-patches"
+#excluded-patches = "'Enable debugging'"
+#patcher-args = "-e 'Custom branding' -OcustomName=YouTube -e 'Change package name' -OpackageName=yt.rev.mmtb"
 
-[YouTube-Music-MMT-Blue]
-rv-brand = "revanced"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-patches-source = "revanced/revanced-patches"
-excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -e 'Change package name' -OpackageName=ytm.rev.mmtb"
+#[YouTube-Music-MMT-Blue]
+#rv-brand = "revanced"
+#arch = "arm64-v8a"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+#uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+#patches-source = "revanced/revanced-patches"
+#excluded-patches = "'Enable debugging'"
+#patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -e 'Change package name' -OpackageName=ytm.rev.mmtb"
 
 [YouTube-Revancify-Red]
 rv-brand = "rvx"
