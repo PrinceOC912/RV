@@ -1,5 +1,5 @@
-YouTube-AFN-Blue: 20.47.62  
-YouTube-AFN-Red: 20.47.62  
+YouTube-AFN-Blue: 20.51.39  
+YouTube-AFN-Red: 20.51.39  
 YouTube-Music-AFN-Blue: 8.47.56  
 YouTube-Music-AFN-Red: 8.47.56  
 
@@ -8,6 +8,6 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-CLI: MorpheApp/morphe-cli-1.8.1-all.jar  
-Patches: MorpheApp/patches-1.29.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.29.0)  
+CLI: MorpheApp/morphe-cli-1.9.0-all.jar  
+Patches: MorpheApp/patches-1.30.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.30.0)  
