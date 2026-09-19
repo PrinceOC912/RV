@@ -92,7 +92,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 included-patches = "'Theme'"
 excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName=YouTube -e 'Clone app' -OpackageName=yt.mor.afnr"
+patcher-args = "-e 'Custom branding' -OcustomName=YouTube -OcustomIcon=youtube/afn_red -OappIcon=custom -e 'Clone app' -OpackageName=yt.mor.afnr"
 
 [YouTube-Music-AFN-Red]
 rv-brand = "morphe"
@@ -104,7 +104,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 included-patches = "'Theme'"
 excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -e 'Clone app' -OpackageName=ytm.mor.afnr"
+patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -OcustomIcon=music/afn_red -OappIcon=custom -e 'Clone app' -OpackageName=ytm.mor.afnr"
 
 [YouTube-AFN-Blue]
 rv-brand = "morphe"
@@ -115,7 +115,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 included-patches = "'Theme'"
 excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName=YouTube -e 'Clone app' -OpackageName=yt.mor.afnb"
+patcher-args = "-e 'Custom branding' -OcustomName=YouTube -OcustomIcon=youtube/afn_blue -OappIcon=custom -e 'Clone app' -OpackageName=yt.mor.afnb"
 
 [YouTube-Music-AFN-Blue]
 rv-brand = "morphe"
@@ -127,7 +127,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 included-patches = "'Theme'"
 excluded-patches = "'Enable debugging'"
-patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -e 'Clone app' -OpackageName=ytm.mor.afnb"
+patcher-args = "-e 'Custom branding' -OcustomName='YouTube Music' -OcustomIcon=music/afn_blue -OappIcon=custom -e 'Clone app' -OpackageName=ytm.mor.afnb"
 
 [Reddit-Morphe]
 app-name = "Reddit"
