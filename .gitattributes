@@ -1,0 +1,3 @@
+config.toml merge=ours
+youtube/** merge=ours
+music/** merge=ours
